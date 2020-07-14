@@ -9,6 +9,7 @@ This library of equalization curves allow you to listen to 78 rpm records with c
 * [Installing the Library of EQ Curves](#installing-the-library-of-eq-curves)
 * [Using the Curves](#using-the-curves)
 * [Curves Included](#curves-included)
+* [Appendix: Playing Records Through Audacity](#appendix-playing-records-through-audacity)
 
 ## Introduction
 
@@ -51,7 +52,7 @@ Now that you are sure that your audio input is flat, it is time to impose the co
 ![Blumlein300](img/Blumlein300.png)
 *In this example, Blumlein300 has been enabled; note that Columbia 78 below it is turned off. You will not generally want to enable more than one historical EQ curve.*
 
-Start playing the record and see how it sounds. Equalizer APO doesn't play records; you will need other software to do that (I use Audacity with monitoring turned on). Most older shellac records from the 1920s and 1930s have a great deal of surface noise (mostly clicks and crackle). You will probably not want to hear the higher-frequency noise. Turn on and adjust the Low-pass filter (the first item in Equalizer Pro) to suppress high-frequency noise. If you get it right, all of the harsh clicks and crackle will become more pleasant to listen to (without too much muffling of the music itself).
+Start playing the record and see how it sounds. Equalizer APO doesn't play records; you will need other software to do that (I use Audacity with monitoring turned on; see below for a how-to). Most older shellac records from the 1920s and 1930s have a great deal of surface noise (mostly clicks and crackle). You will probably not want to hear the higher-frequency noise. Turn on and adjust the Low-pass filter (the first item in Equalizer Pro) to suppress high-frequency noise. If you get it right, all of the harsh clicks and crackle will become more pleasant to listen to (without too much muffling of the music itself).
 
 ![Low-Pass Filter](img/Low-Pass_Filter.png)
 *Once the Low-pass filter is turned on, you may adjust how strong it is by spinning the wheel on the left or changing the number in the box. A noisy 1920s shellac record might need 4500 Hz; a higher-quality 1930s record might sound good at 9000 Hz; and for some later records, you can turn off the filter entirely.*
@@ -92,3 +93,11 @@ Other curves:
 * [629N-12](629N-12.csv)
 
 Feel free to open an issue and ask me to include any other curves that you need. If you are not a GitHub user, you may [contact me through my Elsie Carlisle website](https://www.elsiecarlisle.com/alexandros-kozak/).
+
+## Appendix: Playing Records Through Audacity
+
+An advantage of using Equalizer APO is that it filters all of the sound going through your playback device, which means that you can use any program you like to actually play the music coming into your sound card.
+
+I like to use [Audacity](https://www.audacityteam.org/) to play my records, especially since I use it when I actually record them. But if you are just playing a record, all you need to do is to "monitor" your sound device without recording a sound file. To do this, click on the little microphone icon in the Audacity toolbar and choose "Start Monitoring":
+
+![Start Monitoring in Audacity](img/Audacity_monitoring.png)
