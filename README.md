@@ -18,11 +18,17 @@ These adjustments between the encoding of sound on a record and the transformati
 
 By 1955, the United States had adopted the RIAA standard for sound recording; the rest of the world would eventually follow suit. To this day, most phono preamps apply the RIAA equalization curve to their output, which results in most 78s sounding rather muffled during playback. A common solution is to record a disc and then equalize it correctly soon afterwards. There are complications; modern equipment tends to reproduce all too faithfully the irritating surface noise of early 78s, which means that the collector will have to declick, decrackle, and even denoise each recording to make it listenable, perhaps even applying a low pass filter to deemphasize high-frequency noise well above the range of meaningful sound. One of the best software solutions to facilitate these sorts of 78 transfers is [Audacity](https://www.audacityteam.org/), which happens to have [a wiki](https://wiki.audacityteam.org/wiki/78rpm_playback_curves#78_rpm_shellac_labels_and_their_EQ) that documents nicely many of the historical equalization curves.
 
-Unfortunately, this solution means that the collector never gets to enjoy the records fully in real time. My solution to this problem is to draw upon the wealth of research that the Audacity Team has done, but to use filters that can be used by a system-wide equalizer so that a record can be enjoyed while it spins. [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) for Windows allows one to combine more than one EQ curve, so it is what I have used.
+Unfortunately, this solution means that the collector never gets to enjoy the records fully in real time. My solution to this problem is to draw upon the wealth of research that the Audacity team has done, but to use filters that can be used by a system-wide equalizer so that a record can be enjoyed while it spins. [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) for Windows allows one to combine more than one EQ curve, so it is what I have used.
 
 ## Installing Equalizer APO
 
 To use the EQ curves, you must first download [Equalizer APO](https://sourceforge.net/projects/equalizerapo/). After installing it, you will have to reboot your computer for the system-wide equalizer to work. The program is usually installed to `C:\Program Files\EqualizerAPO`. The configuration files are kept in `C:\Program Files\EqualizerAPO\config`.
+
+During installation, you will be asked which playback devices you would like Equalizer APO's filters to be applied to. Put check marks next to the relevant devices, e.g.
+
+![Configurator](img/Configurator.png)
+
+If you want to change these settings at a later date, you can do so by using the Configurator in the Equalizer APO folder in your Start Menu.
 
 ## Installing the Library of EQ Curves
 
@@ -49,6 +55,10 @@ Start playing the record and see how it sounds. Equalizer APO doesn't play recor
 
 ![Low-Pass Filter](img/Low-Pass_Filter.png)
 *Once the Low-pass filter is turned on, you may adjust how strong it is by spinning the wheel on the left or changing the number in the box. A noisy 1920s shellac record might need 4500 Hz; a higher-quality 1930s record might sound good at 9000 Hz; and for some later records, you can turn off the filter entirely.*
+
+**Finally, a warning: Equalizer APO is always running, and it continues to impose its filters even when the Configuration Editor is closed. The only way to get your computer to return to normal is to turn the filters off. You can tell that things have returned to normal when the bottom panel in the Configuration Editor contains a flat line:**
+
+![Flat](img/flat.png)
 
 ## Curves Included
 
