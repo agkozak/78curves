@@ -52,12 +52,12 @@ Start playing the record and see how it sounds. Equalizer APO doesn't play recor
 
 ## Curves Included
 
-Curves included at the present time are:
+Two basic curves you will need are:
 
 * [Inverse RIAA](Inverse_RIAA.csv) - for flattening out any RIAA curve imposed by your preamp
 * [RIAA](RIAA.csv) - included just in case you need it
 
-Equalizer Pro equivalents for Audacity's [EQ toolbox for 78 rpm shellacs](https://wiki.audacityteam.org/wiki/78rpm_playback_curves#EQ_Curves_Library):
+I have made Equalizer Pro equivalents for Audacity's [EQ toolbox for 78 rpm shellacs](https://wiki.audacityteam.org/wiki/78rpm_playback_curves#EQ_Curves_Library):
 
 * [500-FLAT 500N-0](500-FLAT_500N-0.csv)
 * [American 78 - 250N-7](American_78_-_250N-7.csv) - *Note: Audacity's "American 78" is a compromise between two different real-world curves, 250N-8 (provided below) and 250N-6.*
