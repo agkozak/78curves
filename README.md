@@ -1,6 +1,6 @@
 # Real-Time 78 Equalization Curves for Equalizer APO
 
-This library of equalization curves allow you to listen to 78 rpm records with correct equalization in real time. Playback may be done using any program, as the correction to equalization is done using the [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) system-wide equalizer (Windows required).
+This library of equalization curves allow you to listen to 78 rpm records with correct equalization in real time. Playback may be done using any program, as the correction to equalization is done using the [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) system-wide equalizer (Windows required). You can also use these filters to listen to raw transfers enjoyably.
 
 ## Table of Contents
 
@@ -56,6 +56,8 @@ Start playing the record and see how it sounds. Equalizer APO doesn't play recor
 
 ![Low-Pass Filter](img/Low-Pass_Filter.png)
 *Once the Low-pass filter is turned on, you may adjust how strong it is by spinning the wheel on the left or changing the number in the box. A noisy 1920s shellac record might need 4500 Hz; a higher-quality 1930s record might sound good at 9000 Hz; and for some later records, you can turn off the filter entirely.*
+
+Note that you can also use these techniques to listen to raw transfers enjoyably. Just make sure you know whether your transfers are RIAA or flat before you start.
 
 **Finally, a warning: Equalizer APO is always running, and it continues to impose its filters even when the Configuration Editor is closed. The only way to get your computer to return to normal is to turn the filters off. You can tell that things have returned to normal when the bottom panel in the Configuration Editor contains a flat line:**
 
