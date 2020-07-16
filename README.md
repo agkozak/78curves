@@ -65,7 +65,7 @@ Note that you can also use these techniques to listen to raw transfers enjoyably
 
 ## Curves Included
 
-Two basic curves you will need are:
+Two basic curves you may need:
 
 * [Inverse RIAA](Inverse_RIAA.csv) - for flattening out any RIAA curve imposed by your preamp
 * [RIAA](RIAA.csv) - included just in case you need it
