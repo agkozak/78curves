@@ -33,17 +33,17 @@ If you want to change these settings at a later date, you can do so by using the
 
 ## Installing the Library of EQ Curves
 
-You can download the whole library of curves [as a ZIP file](https://github.com/agkozak/78curves/archive/master.zip) or using Git (from `https://github.com/agkozak/78curves`). Put the configuration files in the Equalizer APO configuration directory (`C:\Program Files\EqualizerAPO\config`). Please note that if you have already been using and have configured Equalizer APO, you may already have a `config.txt` file; please be sure to save it somewhere, as it will be overwritten.
+You can download the whole library of curves [as a ZIP file](https://github.com/agkozak/78curves/archive/master.zip) or using Git (from `https://github.com/agkozak/78curves`). Unzip the archive into the Equalizer APO configuration directory (`C:\Program Files\EqualizerAPO\config`). Please note that if you have already been using and have configured Equalizer APO, you may already have a `config.txt` file; please be sure to save it somewhere, as it will be overwritten.
 
 ## Using the Curves
 
-Open the Configuration Editor from your Start Menu (it's in the Equalizer APO folder). That will open your `config.txt` configuration file.
+Open the Configuration Editor from your Start Menu (you will find it in the Equalizer APO folder). It is the Configuration Editor that manages your `config.txt` configuration file.
 
-The `config.txt` file contains all of the EQ curves in this library. To keep things simple, you may eventually choose to remove from it any curves that you do not need. If you want to restore an individual curve, you may do so by creating a 31-band graphic equalizer in Equalizer APO and then importing the relevant `.csv` file from your configuration directory.
+The `config.txt` file already contains all of the EQ curves in this library. To keep things simple, you may eventually choose to remove from it any curves that you do not need. If you want to restore an individual curve, you may do so by creating a 31-band graphic equalizer in Equalizer APO and then importing the relevant `.csv` file from your configuration directory.
 
 To play any given record with the correct equalization, go through the following steps.
 
-Determine at the beginning if the sound coming from your preamp is has an RIAA curve imposed on it. It usually is; almost all preamps (whether internal to the record player or external) use the RIAA curve, making an old shellac record sound rather muffled. In this case, you will want to turn on the *Inverse* RIAA curve, which will be the second item down in Equalizer Pro -- this will have the effect of undoing the RIAA equalization.
+Determine at the beginning if the sound coming from your preamp is has an RIAA curve imposed on it. It usually is; nearly all preamps (whether internal or external to the record player) use the RIAA curve, making an old shellac record sound rather muffled. In this case, you will want to turn on the *Inverse* RIAA curve, which will be the second item down in Equalizer Pro -- this will have the effect of undoing the RIAA equalization.
 
 ![Inverse RIAA](img/Inverse_RIAA.png)
 
@@ -57,7 +57,7 @@ Start playing the record and see how it sounds. Equalizer APO doesn't play recor
 ![Low-Pass Filter](img/Low-Pass_Filter.png)
 *Once the Low-pass filter is turned on, you may adjust how strong it is by spinning the wheel on the left or changing the number in the box. A noisy 1920s shellac record might need 4500 Hz; a higher-quality 1930s record might sound good at 9000 Hz; and for some later records, you can turn off the filter entirely.*
 
-Note that you can also use these techniques to listen to raw transfers enjoyably. Just make sure you know whether your transfers are RIAA or flat before you start.
+Note that you can also use these techniques to listen to raw transfers enjoyably. Just make sure you know whether your transfers are RIAA or flat before you start and adjust the settings accordingly.
 
 **Finally, a warning: Equalizer APO is always running, and it continues to impose its filters even when the Configuration Editor is closed. The only way to get your computer to return to normal is to turn the filters off. You can tell that things have returned to normal when the bottom panel in the Configuration Editor contains a flat line:**
 
