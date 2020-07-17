@@ -53,7 +53,7 @@ Now that you are sure that your audio input is flat, it is time to impose the co
 
 In the example above, Blumlein300 has been enabled; note that Columbia 78 below it is turned off. You will not generally want to enable more than one historical EQ curve.
 
-Start playing the record and see how it sounds. Equalizer APO does not play records -- you will need other software to do that (I use Audacity with monitoring turned on; see below for a how-to). Most older shellac records from the 1920s and 1930s have a great deal of surface noise (mostly clicks and crackle). You will probably not want to hear the higher-frequency noise. Turn on and adjust the low-pass filter (the first item in Equalizer Pro) to suppress high-frequency noise:
+Start playing the record and see how it sounds. Equalizer APO does not play records -- you will need other software to do that (I use Audacity with monitoring turned on; [see below](#appendix-playing-records-through-audacity) for a how-to). Most older shellac records from the 1920s and 1930s have a great deal of surface noise (mostly clicks and crackle). You will probably not want to hear the higher-frequency noise. Turn on and adjust the low-pass filter (the first item in Equalizer Pro) to suppress high-frequency noise:
 
 ![Low-Pass Filter](img/Low-Pass_Filter.png)
 
