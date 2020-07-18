@@ -57,11 +57,11 @@ Now that you are sure that your audio input is flat, it is time to impose the co
 
 In the example above, Blumlein300 has been enabled; note that Columbia 78 below it is turned off. You will not generally want to enable more than one historical EQ curve.
 
-Start playing the record and see how it sounds. Equalizer APO does not play records -- you will need other software to do that (I use Audacity with monitoring turned on; [see below](#appendix-playing-records-through-audacity) for a how-to). Most older shellac records from the 1920s and 1930s have a great deal of surface noise (mostly clicks and crackle). You will probably not want to hear the higher-frequency noise. Turn on and adjust the low-pass filter (the first item in Equalizer Pro) to suppress high-frequency noise:
+Start playing the record and see how it sounds. Equalizer APO does not play records -- you will need other software to do that (I use Audacity with monitoring turned on; [see below](#appendix-playing-records-through-audacity) for a how-to). Most older shellac records from the 1920s and 1930s have a great deal of surface noise (mostly clicks and crackle). You will probably not want to hear the higher-frequency noise. Turn on and adjust the high-shelf filter (the first item in Equalizer Pro) to suppress some of the high-frequency noise:
 
-![Low-Pass Filter](img/Low-Pass_Filter.png)
+![High-Shelf Filter](img/High-Shelf_Filter.png)
 
-If you get it right, all of the harsh clicks and crackle will become more pleasant to listen to (without too much muffling of the music itself). Once the low-pass filter is turned on, you may adjust how strong it is by spinning the wheel on the left or changing the number in the box. A noisy 1920s shellac record might need 4500 Hz, a higher-quality 1930s record might sound good at 9000 Hz, and for some later records, you can turn off the filter entirely.
+If you get it right, all of the harsh clicks and crackle will become more pleasant to listen to (without too much muffling of the music itself). For some later records, you can turn off the filter entirely.
 
 Note that you can also use these techniques to listen to raw transfers enjoyably. Just make sure you know whether your transfers are RIAA or flat before you start and adjust the settings accordingly.
 
@@ -95,7 +95,7 @@ Other curves:
 * [Capitol - 400N-12.7](Capitol_400N-12.7.csv)
 * [500N-5](500N-5.csv)
 * [500N-8.5](500N-8.5.csv)
-* [MGM - 500N-12](MGM_-_500N.12.csv)
+* [MGM - 500N-12](MGM_-_500N-12.csv)
 * [500N-13.7](500N-13.7)
 * [500N-16](500N-15.csv)
 * [629N-12](629N-12.csv)
