@@ -4,6 +4,8 @@
 
 This library of equalization curves allow you to listen to 78 rpm records with correct equalization in real time. Playback may be done using any program, as the correction to equalization is done using the [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) system-wide equalizer (Windows required). You can also use these filters to listen to raw transfers enjoyably.
 
+[DOWNLOAD](https://github.com/agkozak/78curves/archive/master.zip)
+
 ## Table of Contents
 
 * [Introduction](#introduction)
