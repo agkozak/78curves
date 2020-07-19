@@ -109,3 +109,5 @@ An advantage of using Equalizer APO is that it filters all of the sound going th
 I like to use [Audacity](https://www.audacityteam.org/) to play my records, especially since I use it when I actually record them. But if you are just playing a record, all you need to do is to "monitor" your sound device without recording a sound file. To do this, click on the little microphone icon in the Audacity toolbar and choose "Start Monitoring":
 
 ![Start Monitoring in Audacity](img/Audacity_monitoring.png)
+
+*Copyright 2020 Alexandros Kozak*
