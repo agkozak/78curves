@@ -1,4 +1,4 @@
-# Real-Time 78 Equalization Curves for Equalizer APO
+# Real-Time 78 rpm Equalization Curves for Equalizer APO
 
 ![78curves](img/78curves.jpg)
 
