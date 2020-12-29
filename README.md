@@ -90,6 +90,7 @@ I have made Equalizer Pro equivalents for Audacity's [EQ toolbox for 78 rpm shel
 
 Other curves:
 
+* [250N-5](250N-5.csv)
 * [250N-8](250N-8.csv)
 * [AES - 400N-12.3](AES_-_400-12.3.csv)
 * [Capitol - 400N-12.7](Capitol_400N-12.7.csv)
