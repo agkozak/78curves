@@ -13,6 +13,7 @@ This library of equalization curves allows you to listen to 78 rpm records with 
 * [Installing the Library of EQ Curves](#installing-the-library-of-eq-curves)
 * [Using the Curves](#using-the-curves)
 * [Curves Included](#curves-included)
+* [Mono Switch](#mono-switch)
 * [Appendix: Playing Records Through Audacity](#appendix-playing-records-through-audacity)
 
 ## Introduction
@@ -78,30 +79,40 @@ Two basic curves you may need:
 
 I have made Equalizer Pro equivalents for Audacity's [EQ toolbox for 78 rpm shellacs](https://wiki.audacityteam.org/wiki/78rpm_playback_curves#EQ_Curves_Library):
 
-* [500-FLAT 500N-0](500-FLAT_500N-0.csv)
-* [American 78 - 250N-7](American_78_-_250N-7.csv) - *Note: Audacity's "American 78" is a compromise between two different real-world curves, 250N-8 (provided below) and 250N-6.*
-* [BBC 2db/octave](BBC_2db-octave.csv)
-* [Blumlein300 - 300N-0](Blumlein300_300N-0.csv)
-* [Columbia 78 - 300N-16](Columbia_78_-_300N-16.csv)
-* [Decca 78 - 300N-5.5](Decca_78_-_300N-5.5.csv)
-* [European 78 - 250N-0](European_78_250N-0.csv)
-* [Telefunken 400N-0](Telefunken_400N-0)
-* [Western Electric](Western_Electric.csv)
+* 500-FLAT 500N-0
+* American 78 - 250N-7 - *Note: Audacity's "American 78" is a compromise between two different real-world curves, 250N-8 (provided below) and 250N-6.*
+* BBC 2db/octave (a.k.a. Marconi)
+* Blumlein300 - 300N-0
+* Columbia 78 - 300N-16
+* Decca 78 - 300N-5.5
+* European 78 - 250N-0
+* Telefunken 400N-0
+* Western Electric
 
 Other curves:
 
-* [250N-5](250N-5.csv)
-* [250N-8](250N-8.csv)
-* [AES - 400N-12.3](AES_-_400-12.3.csv)
-* [Capitol - 400N-12.7](Capitol_400N-12.7.csv)
-* [500N-5](500N-5.csv)
-* [500N-8.5](500N-8.5.csv)
-* [MGM - 500N-12](MGM_-_500N-12.csv)
-* [500N-13.7](500N-13.7)
-* [500N-16](500N-15.csv)
-* [629N-12](629N-12.csv)
+* 250N-5
+* 250N-8
+* AES - 400N-12.3
+* Capitol - 400N-12.7
+* 500N-5
+* 500N-8.5
+* MGM - 500N-12
+* 500N-13.7
+* 500N-16
+* 629N-12
 
 Feel free to open an issue and ask me to include any other curves that you need. If you are not a GitHub user, you may [contact me through my Elsie Carlisle website](https://www.elsiecarlisle.com/alexandros-kozak/).
+
+## Mono Switch
+
+78 rpm records were recorded in mono, but true mono cartridges are rare and expensive. Many of the ones termed "mono" either have their pins strapped together or achieve something comparable internally, summing the left and right channels of what is really a stereo cartridge and providing identical left and right output. Other solutions involve pre-amps with a mono switch or two "Y" cables plugged together.
+
+78curves provides a software solution to the problem of using stereo equipment to play mono recordings -- the 78curves mono switch:
+
+![Mono Switch](img/mono.png)
+
+Turn it on. It is as simple as that. While not as ideal as a true mono cartridge, it should be comparable to any of the other options. Using it should make surface noise less distracting and should diminish the effect of certain flaws, such as peak distortion.
 
 ## Appendix: Playing Records Through Audacity
 
