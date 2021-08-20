@@ -3,6 +3,6 @@
 
 @import "{{ site.theme }}";
 
-a.tar_download_link {
-  display: none;
+#downloads .tar_download_link {
+  display: none !important;
 }
