@@ -74,8 +74,8 @@ Note that you can also use these techniques to listen to raw transfers enjoyably
 
 Two basic curves you may need:
 
-* [Inverse RIAA](Inverse_RIAA.csv) - for flattening out any RIAA curve imposed by your preamp
-* [RIAA](RIAA.csv) - included just in case you need it
+* Inverse RIAA - for flattening out any RIAA curve imposed by your preamp
+* RIAA - included just in case you need it
 
 I have made Equalizer Pro equivalents for Audacity's [EQ toolbox for 78 rpm shellacs](https://wiki.audacityteam.org/wiki/78rpm_playback_curves#EQ_Curves_Library):
 
