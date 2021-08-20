@@ -2,6 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+
+#downloads {
+  width: 110px;
+}
+
 #downloads .tar_download_link {
   display: none !important;
 }
