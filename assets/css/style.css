@@ -2,7 +2,6 @@
 ---
 
 @import "{{ site.theme }}";
-
 #downloads .tar_download_link {
   display: none !important;
 }
