@@ -30,7 +30,7 @@ To use the EQ curves, you must first download [Equalizer APO](https://sourceforg
 
 During installation, you will be asked which playback devices you would like Equalizer APO's filters to be applied to. Put check marks next to the relevant devices, e.g.
 
-![Configurator](img/Configurator.png)
+<img alt="Configurator" width="600" src="img/Configurator.png">
 
 If you want to change these settings at a later date, you can do so by using the Configurator in the Equalizer APO folder in your Start Menu.
 
