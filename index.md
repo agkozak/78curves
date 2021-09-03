@@ -100,7 +100,7 @@ Other curves:
 * 500N-16
 * 629N-12
 
-Feel free to open an issue and ask me to include any other curves that you need. If you are not a GitHub user, you may [contact me through my Elsie Carlisle website](https://www.elsiecarlisle.com/alexandros-kozak/).
+Feel free to [open an issue](https://github.com/agkozak/78curves/issues) and ask me to include any other curves that you need. If you are not a GitHub user, you may [contact me through my Elsie Carlisle website](https://www.elsiecarlisle.com/alexandros-kozak/).
 
 ## Mono Switch
 
