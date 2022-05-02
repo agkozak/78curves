@@ -36,6 +36,10 @@ During installation, you will be asked which playback devices you would like Equ
 
 If you want to change these settings at a later date, you can do so by using the Configurator in the Equalizer APO folder in your Start Menu.
 
+**NOTE:** If Equalizer APO does not seem to be working with your output device, try selecting it, selecting "Troubleshooting options" below, and then choose "Install as SFX/EFX (experimental)" in the dropdown menu to the right.
+
+You will need to reboot your computer every time you make changes using the Configurator.
+
 ## Installing the Library of EQ Curves
 
 You can download the whole library of curves [as a ZIP file](https://github.com/agkozak/78curves/archive/master.zip) or using Git (from `https://github.com/agkozak/78curves`). Unzip the archive into the Equalizer APO configuration directory (`C:\Program Files\EqualizerAPO\config`). Please note that if you have already been using and have configured Equalizer APO, you may already have a `config.txt` file; please be sure to save it somewhere, as it will be overwritten.
