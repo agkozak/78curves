@@ -1,8 +1,10 @@
 # 78curves Library for Equalizer APO - https://github.com/agkozak/78curves
+# Vertical Cut
+# Copy: L=-1.0*L
 # Mono Switch
 # Copy: L=0.5*L+0.5*R R=0.5*L+0.5*R
 # High-Shelf Filter
-# Filter: ON HS 12 dB Fc 18000.00 Hz Gain -18 dB
+# Filter: ON HS 12 dB Fc 20000 Hz Gain -18 dB
 # Inverse RIAA
 # GraphicEQ: 20 -19.27; 25 -18.95; 31.5 -18.52; 40 -17.79; 50 -16.95; 63 -15.85; 80 -14.51; 100 -13.09; 125 -11.56; 160 -9.81; 200 -8.22; 250 -6.68; 315 -5.18; 400 -3.78; 500 -2.65; 630 -1.64; 800 -0.75; 1000 0; 1250 0.74; 1600 1.64; 2000 2.59; 2500 3.7; 3150 5.04; 4000 6.61; 5000 8.21; 6300 9.98; 8000 11.89; 10000 13.73; 12500 15.61; 16000 17.71; 20000 19.62
 # RIAA
