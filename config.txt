@@ -1,7 +1,7 @@
 # 78curves Library for Equalizer APO - https://github.com/agkozak/78curves
-# Mono Switch
+# Mono Switch (Horizontal Cut)
 # Copy: L=0.5*L+0.5*R R=0.5*L+0.5*R
-# Vertical Cut & Mono
+# Mono Switch (Vertical Cut)
 # Copy: L=-0.5*L+0.5*R R=-0.5*L+0.5*R
 # High-Shelf Filter
 # Filter: ON HS 12 dB Fc 20000 Hz Gain -18 dB
