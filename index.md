@@ -106,15 +106,17 @@ Other curves:
 
 Feel free to [open an issue](https://github.com/agkozak/78curves/issues) and ask me to include any other curves that you need. If you are not a GitHub user, you may [contact me through my Elsie Carlisle website](https://www.elsiecarlisle.com/alexandros-kozak/).
 
-## Mono Switch
+## Mono Switches for Horizontal-Cut and Vertical-Cut Records
 
 78 rpm records were recorded in mono, but true mono cartridges are rare and expensive. Many of the ones termed "mono" either have their pins strapped together or achieve something comparable internally, summing the left and right channels of what is really a stereo cartridge and providing identical left and right output. Other solutions involve pre-amps with a mono switch or two "Y" cables plugged together.
 
-78curves provides a software solution to the problem of using stereo equipment to play mono recordings -- the 78curves mono switch:
+Another complication arises with vertical-cut discs. Most records are recorded laterally, which is to say that the sound is encoded according to the side-to-side motion of the stylus. Vertical-cut records (such as most Edison Diamond Discs and early Pathés) use the "hill and dale" encoding; it is the up-and-down motion of the stylus that matters. These records sound truly terrible when played incorrectly; normally collectors will reverse the phase of one stereo channel, either on the cartridge itself or by way of a switch on a hardware equalizer.
 
-![Mono Switch](img/mono.png)
+78curves provides a software solution to the problem of using stereo equipment to play mono recordings -- the 78curves mono switches:
 
-Turn it on. It is as simple as that. While not as ideal as a true mono cartridge, it should be comparable to any of the other options. Using it should make surface noise less distracting and should diminish the effect of certain flaws, such as peak distortion.
+![Mono Switches](img/mono.png)
+
+Turn on the switch corresponding to the sort of record that you are playing (remembering that almost all 78s are horizontally cut). Playing your mono records in mono should make surface noise considerably less distracting.
 
 ## Appendix: Playing Records Through Audacity
 
