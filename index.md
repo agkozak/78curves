@@ -11,7 +11,7 @@ This library of equalization curves allows you to listen to 78 rpm records with 
 * [Installing the Library of EQ Curves](#installing-the-library-of-eq-curves)
 * [Using the Curves](#using-the-curves)
 * [Curves Included](#curves-included)
-* [Mono Switch](#mono-switch)
+* [Mono Switches for Horizontal-Cut and Vertical-Cut Records](#mono-switches-for-horizontal-cut-and-vertical-cut-records)
 * [Appendix: Playing Records Through Audacity](#appendix-playing-records-through-audacity)
 
 ## Introduction
