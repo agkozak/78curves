@@ -116,7 +116,7 @@ Another complication arises with vertical-cut discs. Most records are recorded l
 
 78curves provides a software solution to the problem of using stereo equipment to play mono recordings -- the 78curves mono switches:
 
-![Mono Switch](img/mono.png)
+![Mono Switches](img/mono.png)
 
 Turn on the switch corresponding to the sort of record that you are playing (remembering that almost all 78s are horizontally cut). Playing your mono records in mono should make surface noise considerably less distracting.
 
