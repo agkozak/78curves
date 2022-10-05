@@ -38,6 +38,8 @@ If you want to change these settings at a later date, you can do so by using the
 
 **NOTE:** If Equalizer APO does not seem to be working with your output device, try selecting it, selecting "Troubleshooting options" below, and then choose "Install as SFX/EFX (experimental)" in the dropdown menu to the right.
 
+After a major Windows update, it is normal to have to run the Configurator and select all relevant options again.
+
 You will need to reboot your computer every time you make changes using the Configurator.
 
 ## Installing the Library of EQ Curves
