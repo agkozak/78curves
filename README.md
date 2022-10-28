@@ -85,28 +85,29 @@ Two basic curves you may need:
 
 I have made Equalizer Pro equivalents for Audacity's [EQ toolbox for 78 rpm shellacs](https://wiki.audacityteam.org/wiki/78rpm_playback_curves#EQ_Curves_Library):
 
-* 500-FLAT 500N-0
-* American 78 - 250N-7 - *Note: Audacity's "American 78" is a compromise between two different real-world curves, 250N-8 (provided below) and 250N-6.*
+* 500-FLAT (500N-0)
+* American 78 (250N-7) - *Note: Audacity's "American 78" is a compromise between two different real-world curves, 250N-8 (provided below) and 250N-6.*
 * BBC 2db/octave (a.k.a. Marconi)
-* Blumlein300 - 300N-0
-* Columbia 78 - 300N-16
-* Decca 78 - 300N-5.5
-* European 78 - 250N-0
-* Telefunken 400N-0
+* Blumlein300 (300N-0)
+* Columbia 78 (300N-16)
+* Decca 78 (300N-5.5)
+* European 78 (250N-0)
+* Telefunken (400N-0)
 * Western Electric
 
 Other curves:
 
 * 250N-5
 * 250N-8
-* AES - 400N-12.3
-* Capitol - 400N-12.7
+* AES (400N-12.3)
+* Capitol (400N-12.7)
 * 500N-5
 * 500N-8.5
-* MGM - 500N-12
+* MGM (500N-12)
 * 500N-13.7
 * 500N-16
 * 629N-12
+* RCA 45 (800N-13.7)
 
 Feel free to open an issue and ask me to include any other curves that you need. If you are not a GitHub user, you may [contact me through my Elsie Carlisle website](https://www.elsiecarlisle.com/alexandros-kozak/).
 
