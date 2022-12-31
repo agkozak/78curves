@@ -131,4 +131,4 @@ I like to use [Audacity](https://www.audacityteam.org/) to play my records, espe
 
 ![Start Monitoring in Audacity](img/Audacity_monitoring.png)
 
-*Copyright (C) 2020-2022 Alexandros Kozak*
+*Copyright (C) 2020-2023 Alexandros Kozak*
