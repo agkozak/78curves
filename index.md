@@ -97,6 +97,7 @@ Other curves:
 
 * 250N-5
 * 250N-8
+* Lindström (400C-0)
 * AES (400N-12.3)
 * Capitol (400N-12.7)
 * 500N-5
