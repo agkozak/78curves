@@ -2,7 +2,7 @@
 
 ![78curves](img/78curves.jpg)
 
-This library of equalization curves allows you to listen to 78 rpm records with correct equalization in real time. Playback may be done using any program, as the correction to equalization is done using the [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) system-wide equalizer (Windows required). You can also use these filters to listen to raw transfers enjoyably. Mono switches for both horizontally and vertically cut records are provided.
+This library of equalization curves allows you to listen to 78 rpm records with correct equalization in real time. Playback may be done using any program, as the correction to equalization is done using the [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) system-wide equalizer (Windows required). You can also use these filters to listen to raw transfers enjoyably. Mono switches for both laterally and vertically cut records are provided.
 
 [DOWNLOAD](https://github.com/agkozak/78curves/archive/master.zip)
 
@@ -13,7 +13,7 @@ This library of equalization curves allows you to listen to 78 rpm records with 
 * [Installing the Library of EQ Curves](#installing-the-library-of-eq-curves)
 * [Using the Curves](#using-the-curves)
 * [Curves Included](#curves-included)
-* [Mono Switches for Horizontal-Cut and Vertical-Cut Records](#mono-switches-for-horizontal-cut-and-vertical-cut-records)
+* [Mono Switches for Lateral-Cut and Vertical-Cut Records](#mono-switches-for-lateral-cut-and-vertical-cut-records)
 * [Appendix: Playing Records Through Audacity](#appendix-playing-records-through-audacity)
 
 ## Introduction
@@ -112,7 +112,7 @@ Other curves:
 
 Feel free to open an issue and ask me to include any other curves that you need. If you are not a GitHub user, you may [contact me through my Elsie Carlisle website](https://www.elsiecarlisle.com/alexandros-kozak/).
 
-## Mono Switches for Horizontal-Cut and Vertical-Cut Records
+## Mono Switches for Lateral-Cut and Vertical-Cut Records
 
 78 rpm records were recorded in mono, but true mono cartridges are rare and expensive. Many of the ones termed "mono" either have their pins strapped together or achieve something comparable internally, summing the left and right channels of what is really a stereo cartridge and providing identical left and right output. Other solutions involve pre-amps with a mono switch or two "Y" cables plugged together.
 
@@ -122,7 +122,7 @@ Another complication arises with vertical-cut discs. Most records are recorded l
 
 ![Mono Switch](img/mono.png)
 
-Turn on the switch corresponding to the sort of record that you are playing (remembering that almost all 78s are horizontally cut). Playing your mono records in mono should make surface noise considerably less distracting.
+Turn on the switch corresponding to the sort of record that you are playing (remembering that almost all 78s are lateral-cut). Playing your mono records in mono should make surface noise considerably less distracting.
 
 ## Appendix: Playing Records Through Audacity
 
