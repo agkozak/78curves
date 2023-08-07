@@ -20,7 +20,7 @@ In 1925, when phonograph records began to be recorded electrically, sound engine
 
 These adjustments between the encoding of sound on a record and the transformation it undergoes during playback are known as equalization. For several decades, many equalization curves were in use, with individual record labels using different standards and even changing their standards from year to year. Even with the move from 78s to LPs and 45s, various standards were in use.
 
-By 1955, the United States had adopted the RIAA standard for sound recording; the rest of the world would eventually follow suit. To this day, most phono preamps apply the RIAA equalization curve to their output, which results in many 78s sounding rather muffled during playback. A common solution is to record a disc and then equalize it correctly soon afterwards. There are complications: modern equipment tends to reproduce all too faithfully the irritating surface noise of early 78s, which means that the collector will have to declick, decrackle, and even denoise each recording to make it listenable, perhaps even applying a low pass filter to deemphasize high-frequency noise well above the range of meaningful sound. One of the best software solutions to facilitate these sorts of 78 transfers is [Audacity](https://www.audacityteam.org/), which happens to have [a wiki](https://wiki.audacityteam.org/wiki/78rpm_playback_curves#78_rpm_shellac_labels_and_their_EQ) that nicely documents many of the historical equalization curves.
+By 1955, the United States had adopted the RIAA standard for sound recording; the rest of the world would eventually follow suit. To this day, most phono preamps apply the RIAA equalization curve to their output, which results in many 78s sounding rather muffled during playback. A common solution is to record a disc and then equalize it correctly soon afterwards. There are complications: modern equipment tends to reproduce all too faithfully the irritating surface noise of early 78s, which means that the collector will have to declick, decrackle, and even denoise each recording to make it listenable, perhaps even applying a low pass filter to deemphasize high-frequency noise well above the range of meaningful sound. One of the best software solutions to facilitate these sorts of 78 transfers is [Audacity](https://www.audacityteam.org/), which happens to have [a wiki](https://plugins.audacityteam.org/additional-resources/eq-curves/playback-equalization-for-78-rpm-shellacs-and-early-33-lps#78-rpm-shellac-labels-and-their-eq) that nicely documents many of the historical equalization curves.
 
 Unfortunately, this solution means that the collector never gets to enjoy the records fully in real time. My solution to this problem is to draw upon the wealth of research that the Audacity team has done, but to use filters that can be used by a system-wide equalizer so that a record can be enjoyed while it spins. [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) for Windows allows one to combine more than one EQ curve, so it is what I have used.
 
@@ -56,7 +56,7 @@ First determine if the sound coming from your preamp has an RIAA curve imposed o
 
 ![Inverse RIAA](img/Inverse_RIAA.png)
 
-Now that you are sure that your audio input is flat, it is time to impose the correct curve. If you need to, consult the [Audacity Wiki](https://wiki.audacityteam.org/wiki/78rpm_playback_curves#78_rpm_shellac_labels_and_their_EQ) to find the curve appropriate to the record you are playing. Turn on the relevant filter:
+Now that you are sure that your audio input is flat, it is time to impose the correct curve. If you need to, consult the [Audacity Wiki](https://plugins.audacityteam.org/additional-resources/eq-curves/playback-equalization-for-78-rpm-shellacs-and-early-33-lps#78-rpm-shellac-labels-and-their-eq) to find the curve appropriate to the record you are playing. Turn on the relevant filter:
 
 ![Blumlein300](img/Blumlein300.png)
 
@@ -81,7 +81,7 @@ Two basic curves you may need:
 * Inverse RIAA - for flattening out any RIAA curve imposed by your preamp
 * RIAA - included just in case you need it
 
-I have made Equalizer Pro equivalents for Audacity's [EQ toolbox for 78 rpm shellacs](https://wiki.audacityteam.org/wiki/78rpm_playback_curves#EQ_Curves_Library):
+I have made Equalizer Pro equivalents for Audacity's [EQ toolbox for 78 rpm shellacs](https://plugins.audacityteam.org/additional-resources/eq-curves/playback-equalization-for-78-rpm-shellacs-and-early-33-lps#eq-curves-library):
 
 * 500-FLAT (500N-0)
 * American 78 (250N-7) - *Note: Audacity's "American 78" is a compromise between two different real-world curves, 250N-8 (provided below) and 250N-6.*
