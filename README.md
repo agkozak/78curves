@@ -32,15 +32,13 @@ To use the EQ curves, you must first download [Equalizer APO](https://sourceforg
 
 During installation, you will be asked which playback devices you would like Equalizer APO's filters to be applied to. Put check marks next to the relevant devices, e.g.
 
-<img alt="Configurator" width="600" src="img/Configurator.png">
+<img alt="Equalizer APO Device Selector" width="600" src="img/Equalizer APO Device Selector.png">
 
-If you want to change these settings at a later date, you can do so by using the Configurator in the Equalizer APO folder in your Start Menu.
+If you want to change these settings at a later date, you can do so by using the Equalizer APO Device Selector in the Equalizer APO folder in your Start Menu (N.B. Before Equalizer APO version 1.4, this program was called the Configurator; it worked quite similarly).
 
-**NOTE:** If Equalizer APO does not seem to be working with your output device, try selecting it, selecting "Troubleshooting options" below, and then choose "Install as SFX/EFX (experimental)" in the dropdown menu to the right.
+**NOTE:** If Equalizer APO does not seem to be working with your output device, try selecting the device, selecting "Troubleshooting options" below, and then choose "Install as SFX/EFX (experimental)" in the dropdown menu to the right.
 
-After a major Windows update, it is normal to have to run the Configurator and select all relevant options again.
-
-You will need to reboot your computer every time you make changes using the Configurator.
+After a major Windows update, you may have to run the Device Selector and select all relevant options again.
 
 ## Installing the Library of EQ Curves
 
